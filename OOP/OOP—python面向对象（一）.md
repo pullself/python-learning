@@ -82,7 +82,28 @@ class PythonStudent():
         return None
 
 red = PythonStudent()
+red.do_homework()
 ```
+- 类的实例化
+        
+        变量 = 类名（）
 
+- 访问对象成员
+    - 使用点操作符号
+
+            obj.成员属性
+            obj.成员方法
+
+- 通过默认内置变量检查类和对象的所有成员
+    - 对象所有成员检测
+
+            obj.__dict__
+            
+    - 类所有的成员
+    
+            classname.__dict__
+            
+    
+        
             
     
